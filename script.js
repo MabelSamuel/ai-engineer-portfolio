@@ -1,7 +1,7 @@
 const PORTFOLIO_LINKS = {
   github: "https://github.com/MabelSamuel",
   linkedin: "https://www.linkedin.com/in/mabel-samuel-2bb9b42a9/",
-  cv: "", // Add a public CV URL, or host a file named cv.pdf beside index.html
+  cv: "Mabel_Samuel_AI_Backend_Engineer.pdf",
   docuchat: "https://github.com/MabelSamuel/docuchat",
   groupProject: "https://github.com/MabelSamuel/tasklume" 
 };
