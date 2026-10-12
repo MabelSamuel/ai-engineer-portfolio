@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#f7f7f4">
+  <meta name="theme-color" content="#ffffff">
   <meta name="description"
     content="Mabel Samuel's AI Engineering portfolio: document question-answering with RAG and an AI-powered task management concept.">
   <title>Mabel Samuel | AI Engineer</title>
@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700;9..40,900&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
@@ -24,277 +24,232 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="#home" aria-label="Mabel Samuel, home"><span class="brand-mark">MS</span><span>Mabel
-          Samuel<span class="brand-dot">.</span></span></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Mabel Samuel, home">Mabel Samuel</a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links"
         aria-label="Toggle navigation"><span></span><span></span></button>
       <div class="nav-links" id="nav-links">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a class="nav-cta" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+        <a class="nav-cta" href="#contact">Let's connect</a>
       </div>
     </nav>
   </header>
 
   <main id="main">
-    <section class="hero section container" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> AI ENGINEERING PORTFOLIO <span class="eyebrow-line"></span>
-        </p>
-        <h1>Building useful software.<br><span class="muted-heading">Exploring intelligent systems.</span></h1>
-        <p class="hero-text">I'm <strong>Mabel Samuel</strong>, a software engineer expanding into AI engineering. I’m
-          interested in building practical, human-centred applications that use AI thoughtfully and keep people in
-          control.</p>
-        <div class="hero-actions">
-          <a class="button button-dark" href="#projects">Explore my projects <span aria-hidden="true">↓</span></a>
-          <a class="button button-light" href="https://github.com/MabelSamuel" target="_blank"
-            rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
-        </div>
-        <div class="hero-meta">
-          <span><span class="meta-icon">⌘</span> Software Engineering</span>
-          <span><span class="meta-icon">✳</span> AI Engineering</span>
-        </div>
+    <section class="hero" id="home">
+      <div class="hero-left">
+        <p class="status-pill"><span class="status-dot"></span> Open to AI engineering opportunities</p>
+        <h1>Mabel builds practical software and is growing into <em>AI engineering.</em></h1>
+        <ul class="socials">
+          <li><a href="https://github.com/MabelSamuel" target="_blank" rel="noopener noreferrer"
+              aria-label="GitHub"><svg viewBox="0 0 496 512" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8z" />
+              </svg></a></li>
+          <li><a class="placeholder-link" data-link="linkedin" href="#contact" aria-label="LinkedIn"><svg
+                viewBox="0 0 448 512" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+              </svg><span class="visually-hidden">LinkedIn</span></a></li>
+        </ul>
       </div>
-      <div class="hero-visual" aria-label="Abstract illustration representing connected information and AI systems">
-        <div class="visual-topline"><span>EXPLORING THE SPACE BETWEEN</span><span>01 / 03</span></div>
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="orbit orbit-three"></div>
-        <div class="core"><span class="core-spark">✳</span><span>human<br>+ machine</span></div>
-        <span class="node node-a">INPUT</span><span class="node node-b">CONTEXT</span><span
-          class="node node-c">REASONING</span><span class="node node-d">OUTPUT</span>
-        <div class="visual-caption"><span class="caption-mark">↗</span><span>Curiosity into capability.<br>Ideas into
-            working systems.</span></div>
+      <div class="hero-photo">
+        <img src="mabel-potrait.jpg" alt="Portrait of Mabel Samuel in a white blouse" width="1600" height="2000">
+      </div>
+      <div class="hero-right">
+        <p>Mabel Samuel is a software engineer who works on web applications, APIs and data flows. She's now
+          building AI-powered tools that turn messy information into useful answers, while people stay in
+          charge of the final decision.</p>
+        <a class="button" href="#projects">See my projects <span aria-hidden="true">→</span></a>
       </div>
     </section>
 
-    <section class="intro-strip">
-      <div class="container strip-inner"><span class="strip-label">MY APPROACH</span>
-        <p>Start with a real problem. Use the right tools. Make the result understandable, useful, and responsible.</p>
-        <span class="strip-symbol">✳</span>
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Retrieval-Augmented Generation</span><i></i><span>LLM Applications</span><i></i><span>REST
+          APIs</span><i></i><span>TypeScript</span><i></i><span>Python</span><i></i><span>Structured
+          Outputs</span><i></i><span>Human Oversight</span><i></i>
+        <span>Retrieval-Augmented Generation</span><i></i><span>LLM Applications</span><i></i><span>REST
+          APIs</span><i></i><span>TypeScript</span><i></i><span>Python</span><i></i><span>Structured
+          Outputs</span><i></i><span>Human Oversight</span><i></i>
       </div>
-    </section>
+    </div>
 
     <section class="section container" id="about">
-      <div class="section-heading">
-        <p class="eyebrow">01 — ABOUT</p>
-        <h2>Engineering experience,<br><span class="text-muted">with an AI-focused direction.</span></h2>
+      <div class="section-head">
+        <h2>About Me</h2>
+        <p class="subhead">Software foundations, with a new focus on AI</p>
       </div>
       <div class="about-grid">
         <div class="about-copy">
-          <p>My background is in software engineering, where I work on web applications, APIs, data flows, and practical
-            product features. Through AI engineering training, I’m developing my understanding of how AI capabilities
-            can be integrated into software to solve specific user problems.</p>
-          <p>I’m especially interested in systems that turn unstructured information into useful answers or
-            actions—while making their limitations visible and leaving important decisions with the user.</p><a
-            class="text-link" href="https://github.com/MabelSamuel" target="_blank" rel="noopener noreferrer">Explore my
-            code on GitHub <span>↗</span></a>
+          <p>Hi, I'm Mabel. My background is in software engineering: I build web applications and APIs, wire up data
+            flows, and ship practical product features. Through AI engineering training, I'm learning how to bring AI
+            into software in ways that solve a specific problem for a specific person.</p>
+          <p>I'm most drawn to systems that take unstructured information and turn it into answers or actions. The
+            ones I like best are honest about where they fall short and leave the important calls with the user.</p>
+          <a class="text-link" href="https://github.com/MabelSamuel" target="_blank" rel="noopener noreferrer">Browse
+            my code on GitHub ↗</a>
         </div>
-        <aside class="about-note"><span class="note-icon">✳</span>
-          <p class="note-label">CURRENT FOCUS</p>
-          <h3>From software foundations to AI-powered experiences.</h3>
-          <p>Learning by building, testing assumptions, and documenting what each system can—and cannot—do.</p>
-          <div class="note-rule"></div><span class="note-foot">PRACTICAL · CURIOUS · RESPONSIBLE</span>
+        <aside class="about-quote">
+          <span class="badge" aria-hidden="true">“</span>
+          <p>I learn by building: I test my assumptions and write down what each system can and can't do.</p>
+          <span class="quote-foot">Current focus</span>
         </aside>
       </div>
     </section>
 
-    <section class="section skills-section" id="skills">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">02 — SKILLS & LEARNING</p>
-          <h2>The toolkit behind<br><span class="text-muted">the work.</span></h2>
-          <p class="heading-description">A mix of existing software engineering foundations and AI concepts being
-            developed through bootcamp projects.</p>
-        </div>
-        <div class="skills-grid">
-          <article class="skill-card">
-            <div class="skill-number">01</div>
-            <h3>Software Engineering</h3>
-            <p>Foundations from professional web application development.</p>
-            <div class="tag-list">
-              <span>JavaScript</span><span>TypeScript</span><span>Python</span><span>SQL</span><span>REST
-                APIs</span><span>Git & GitHub</span></div>
-          </article>
-          <article class="skill-card">
-            <div class="skill-number">02</div>
-            <h3>AI Engineering Concepts</h3>
-            <p>Concepts explored through training and the featured projects.</p>
-            <div class="tag-list"><span>LLM applications</span><span>RAG</span><span>Prompt
-                design</span><span>Structured outputs</span><span>AI-assisted workflows</span></div>
-          </article>
-          <article class="skill-card">
-            <div class="skill-number">03</div>
-            <h3>Responsible AI Thinking</h3>
-            <p>Designing for clarity, user control, and graceful failure.</p>
-            <div class="tag-list"><span>Human oversight</span><span>Privacy
-                awareness</span><span>Evaluation</span><span>Limitations & risks</span></div>
-          </article>
-        </div>
-        <p class="skills-footnote"><span>↳</span> These are areas of experience and learning, not a claim that every
-          tool or concept has been used in production.</p>
+    <section class="section container" id="skills">
+      <div class="section-head">
+        <h2>Skills &amp; Learning</h2>
+        <p class="subhead">What I already use, and what I'm learning by building.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="badge">1</span>
+          <h3>Software Engineering</h3>
+          <p>Foundations from professional web application development.</p>
+          <ul class="tag-list">
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>REST APIs</li>
+            <li>Git &amp; GitHub</li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <span class="badge">2</span>
+          <h3>AI Engineering</h3>
+          <p>Concepts I've explored in training and in the projects below.</p>
+          <ul class="tag-list">
+            <li>LLM applications</li>
+            <li>RAG</li>
+            <li>Prompt design</li>
+            <li>Structured outputs</li>
+            <li>AI-assisted workflows</li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <span class="badge">3</span>
+          <h3>Responsible AI</h3>
+          <p>Designing for clarity, user control and graceful failure.</p>
+          <ul class="tag-list">
+            <li>Human oversight</li>
+            <li>Privacy awareness</li>
+            <li>Evaluation</li>
+            <li>Limitations &amp; risks</li>
+          </ul>
+        </article>
       </div>
     </section>
 
-    <section class="section container projects-section" id="projects">
-      <div class="section-heading projects-heading">
-        <div>
-          <p class="eyebrow">03 — FEATURED PROJECTS</p>
-          <h2>Learning through<br><span class="text-muted">real-world problems.</span></h2>
-        </div><span class="project-count">02 PROJECTS</span>
+    <section class="section container" id="projects">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="subhead">Learning by working on real problems.</p>
       </div>
-      <article class="project-card project-docuchat">
-        <div class="project-visual docu-visual">
-          <div class="visual-label">BOOTCAMP PROJECT <span>01</span></div>
-          <div class="doc-window">
-            <div class="window-bar"><i></i><i></i><i></i><span>docuchat / workspace</span></div>
-            <div class="doc-layout">
-              <div class="doc-sidebar"><span class="side-active">▤ Documents</span><span>＋ Add file</span>
-                <div class="side-file">report.txt</div>
-                <div class="side-file">notes.txt</div>
-              </div>
-              <div class="doc-chat"><span class="chat-label">ASK YOUR DOCUMENTS</span>
-                <div class="chat-bubble user-bubble">What are the key points?</div>
-                <div class="chat-bubble ai-bubble"><span class="ai-star">✳</span><span>Find answers grounded in your
-                    uploaded document content.</span></div>
-                <div class="chat-input">Ask a question… <span>↑</span></div>
-              </div>
-            </div>
-          </div>
-          <div class="visual-bottom"><span>RETRIEVAL</span><span>+ GENERATION</span><span>+ CONTEXT</span></div>
+
+      <article class="project">
+        <div class="project-cover cover-dark">
+          <span class="cover-tag">Project 01</span>
+          <p class="cover-title">Docu<br>Chat</p>
+          <p class="cover-line">Ask your documents a question.</p>
         </div>
-        <div class="project-content">
-          <div class="project-kicker"><span class="project-dot"></span> GUIDED BOOTCAMP PROJECT</div>
+        <div class="project-body">
+          <p class="project-meta">Backend · RAG</p>
           <h3>DocuChat</h3>
-          <p class="project-lead">Ask questions. Get answers grounded in your documents.</p>
-          <p>DocuChat is a “chat with your documents” backend built around the retrieval-augmented generation (RAG)
-            pattern. Users upload text documents and ask an LLM questions about their contents, so responses can be
-            grounded in relevant source material rather than relying only on general model knowledge.</p>
-          <div class="project-detail"><span>THE CORE IDEA</span>
-            <p>Retrieve relevant document context, then use that context to help generate a response.</p>
-          </div>
-          <div class="tag-list"><span>RAG</span><span>LLM applications</span><span>Document Q&A</span></div>
-          <div class="project-links"><a class="button button-dark repo-link" data-repo="docuchat"
-              href="#contact">Repository link needed <span>↗</span></a><span class="link-note">Add the project
-              repository URL in script.js.</span></div>
+          <p class="project-lead">Ask questions and get answers based on your own documents.</p>
+          <p>DocuChat is a "chat with your documents" backend built on retrieval-augmented generation (RAG). Users
+            upload
+            text documents and ask an LLM about them, so answers draw on the documents themselves, not just the
+            model's general knowledge.</p>
+          <details class="accordion">
+            <summary>The core idea</summary>
+            <p>First retrieve the relevant parts of the document, then give them to the model so it can write the
+              answer.</p>
+          </details>
+          <ul class="tag-list">
+            <li>RAG</li>
+            <li>LLM applications</li>
+            <li>Document Q&amp;A</li>
+          </ul>
+          <div class="project-links"><a class="button repo-link" data-repo="docuchat" href="#contact">Repository link
+              needed <span aria-hidden="true">↗</span></a></div>
         </div>
       </article>
 
-      <article class="project-card project-task">
-        <div class="project-visual task-visual">
-          <div class="visual-label">GROUP PROJECT <span>02</span></div>
-          <div class="task-ui">
-            <div class="task-ui-header">
-              <div><span class="tiny-label">YOUR WORKSPACE</span>
-                <h4>Today, with clarity.</h4>
-              </div><span class="avatar">MS</span>
-            </div>
-            <div class="task-summary">
-              <div><span>OPEN TASKS</span><strong>12</strong></div>
-              <div><span>NEEDS ATTENTION</span><strong class="attention">03</strong></div>
-              <div><span>AI BRIEFING</span><strong>Ready <i>✳</i></strong></div>
-            </div>
-            <div class="task-list-head"><span>PRIORITY SUGGESTIONS</span><span>AI ASSIST</span></div>
-            <div class="task-row"><span class="task-check"></span>
-              <div><strong>Prepare project update</strong><small>Project work · Due date to confirm</small></div><span
-                class="priority high">HIGH</span>
-            </div>
-            <div class="task-row"><span class="task-check"></span>
-              <div><strong>Follow up with the vendor</strong><small>Operations · Next week</small></div><span
-                class="priority medium">MEDIUM</span>
-            </div>
-            <div class="task-row"><span class="task-check"></span>
-              <div><strong>Review meeting notes</strong><small>Planning · Suggested category</small></div><span
-                class="priority low">LOW</span>
-            </div>
-            <div class="ai-insight"><span>✳</span>
-              <p><strong>AI briefing</strong><br>Review urgent items first. Confirm suggested dates and priorities
-                before saving.</p>
-            </div>
-          </div>
-          <div class="visual-bottom"><span>CAPTURE</span><span>PRIORITIZE</span><span>TAKE ACTION</span></div>
+      <article class="project">
+        <div class="project-cover cover-pink">
+          <span class="cover-tag">Project 02</span>
+          <p class="cover-title">Task<br>Flow</p>
+          <p class="cover-line">Capture. Prioritize. Act.</p>
         </div>
-        <div class="project-content">
-          <div class="project-kicker"><span class="project-dot project-dot-lilac"></span> TEAM CONCEPT · UNDER REVIEW
-          </div>
+        <div class="project-body">
+          <p class="project-meta">Product concept · In progress</p>
           <h3>AI-Powered Task Management</h3>
-          <p class="project-lead">Less time organizing tasks. More time doing meaningful work.</p>
-          <p>Our group proposed an AI-powered task management application that helps people turn natural-language
-            requests into structured tasks, organize work, and understand what may need attention next.</p>
-          <div class="feature-list">
-            <div><span>01</span>
-              <p><strong>Natural-language capture</strong><br>Extract task details such as title, due date, project, and
-                priority.</p>
-            </div>
-            <div><span>02</span>
-              <p><strong>Context-aware assistance</strong><br>Suggest priorities, categories, and useful task summaries.
-              </p>
-            </div>
-            <div><span>03</span>
-              <p><strong>Search and briefings</strong><br>Find tasks by meaning and surface overdue or upcoming work.
-              </p>
-            </div>
-          </div>
-          <div class="project-detail"><span>RESPONSIBLE DESIGN</span>
-            <p>Suggestions should remain editable. Users should be able to correct AI mistakes, manage privacy, and
-              continue with basic task management if AI is unavailable.</p>
-          </div>
-          <div class="tag-list"><span>LLM-assisted workflows</span><span>Task prioritization</span><span>Human
-              oversight</span></div>
-          <div class="project-links"><a class="button button-dark repo-link" data-repo="groupProject"
-              href="#contact">Repository link needed <span>↗</span></a><span class="link-note">Add your team's
-              repository URL in script.js.</span></div>
-          <p class="review-note">Project concept and capabilities may change as the team reviews the solution. The
-            interface above is an illustrative concept, not a claim of a completed working application.</p>
-        </div>
+          <p class="project-lead">Spend less time organizing tasks and more time on the work itself.</p>
+          <p>An AI-powered task manager that turns natural-language requests into structured tasks, organizes the
+            work, and points out what may need attention next.</p>
+          <details class="accordion">
+            <summary>Natural-language capture</summary>
+            <p>Pulls out task details such as the title, due date, project and priority.</p>
+          </details>
+          <details class="accordion">
+            <summary>Context-aware assistance</summary>
+            <p>Suggests priorities, categories and short task summaries.</p>
+          </details>
+          <details class="accordion">
+            <summary>Search and briefings</summary>
+            <p>Finds tasks by meaning, not just keywords, and highlights overdue or upcoming work.</p>
+          </details>
+          <details class="accordion">
+            <summary>Responsible design</summary>
+            <p>Users can edit every suggestion and correct the AI's mistakes. They control their privacy, and the basic
+              task features still work if the AI is unavailable.</p>
+          </details>
+          <ul class="tag-list">
+            <li>LLM-assisted workflows</li>
+            <li>Task prioritization</li>
+            <li>Human oversight</li>
+          </ul>
+          <div class="project-links"><a class="button repo-link" data-repo="groupProject"
+              href="https://github.com/MabelSamuel/tasklume" target="_blank" rel="noopener noreferrer">View GitHub
+              repository <span aria-hidden="true">↗</span></a></div>
       </article>
     </section>
 
-    <section class="section learning-section">
-      <div class="container learning-inner">
-        <div>
-          <p class="eyebrow">04 — WHAT GUIDES ME</p>
-          <h2>AI should make work<br><span class="text-muted">more useful, not more mysterious.</span></h2>
-        </div>
-        <div class="principles">
-          <div><span>↗</span>
-            <p><strong>Useful by design</strong><br>Start from a user problem, not from the novelty of a tool.</p>
-          </div>
-          <div><span>◎</span>
-            <p><strong>Human in control</strong><br>Make AI recommendations understandable and correctable.</p>
-          </div>
-          <div><span>⌁</span>
-            <p><strong>Honest about limits</strong><br>Consider accuracy, privacy, bias, and failure paths.</p>
-          </div>
-        </div>
+    <section class="principles-section">
+      <div class="container principles-inner">
+        <h2>AI should make work more useful, <em>not more mysterious.</em></h2>
+        <ol class="principles">
+          <li><strong>Useful by design</strong>Start from a user's problem, not from a tool because it's new.</li>
+          <li><strong>Human in control</strong>Make AI suggestions easy to understand and easy to correct.</li>
+          <li><strong>Honest about limits</strong>Consider accuracy, privacy, bias and what happens when it fails.</li>
+        </ol>
       </div>
     </section>
 
     <section class="section container contact-section" id="contact">
-      <div class="contact-card">
-        <div>
-          <p class="eyebrow">05 — CONNECT</p>
-          <h2>Let's build something<br><span class="text-muted">thoughtful.</span></h2>
-          <p class="contact-copy">I'm learning, building, and growing at the intersection of software engineering and
-            AI. Explore my work or connect with me professionally.</p>
-        </div>
-        <div class="contact-links"><a class="contact-link" href="https://github.com/MabelSamuel" target="_blank"
-            rel="noopener noreferrer"><span>GitHub</span><span>View repositories ↗</span></a><a
-            class="contact-link placeholder-link" data-link="linkedin" href="#contact"><span>LinkedIn</span><span>Add
-              profile URL ↗</span></a><a class="contact-link placeholder-link" data-link="cv" href="#contact"><span>CV /
-              Resume</span><span>Add CV URL ↗</span></a></div>
-        <p class="contact-hint" id="contact-hint">Before submitting, add your LinkedIn URL, CV URL, and project
-          repository links in script.js.</p>
+      <p class="status-pill"><span class="status-dot"></span> Let's talk</p>
+      <h2>Let's build something <em>thoughtful.</em></h2>
+      <p class="contact-copy">I'm learning and building where software engineering meets AI. Have a look at my work,
+        or get in touch.</p>
+      <div class="contact-links">
+        <a class="contact-link" href="https://github.com/MabelSamuel" target="_blank"
+          rel="noopener noreferrer"><span>GitHub</span><span>View repositories ↗</span></a>
+        <a class="contact-link placeholder-link" data-link="linkedin" href="#contact"><span>LinkedIn</span><span>Add
+            profile URL ↗</span></a>
+        <a class="contact-link placeholder-link" data-link="cv" href="#contact"><span>CV / Resume</span><span>Add CV URL
+            ↗</span></a>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">MS</span><span>Mabel
-          Samuel<span class="brand-dot">.</span></span></a><span>Built with HTML, CSS & vanilla JavaScript.</span><a
-        href="#home">Back to top ↑</a><span class="copyright">© <span id="year"></span> Mabel Samuel</span></div>
+    <p>Copyright © <span id="year"></span> Mabel Samuel. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
   </footer>
 </body>
 

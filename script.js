@@ -1,9 +1,9 @@
 const PORTFOLIO_LINKS = {
   github: "https://github.com/MabelSamuel",
-  linkedin: "", // Add your personal LinkedIn profile URL
+  linkedin: "https://www.linkedin.com/in/mabel-samuel-2bb9b42a9/",
   cv: "", // Add a public CV URL, or host a file named cv.pdf beside index.html
-  docuchat: "", // Add the guided DocuChat project repository URL
-  groupProject: "" // Add the team's AI task management repository URL
+  docuchat: "https://github.com/MabelSamuel/docuchat",
+  groupProject: "https://github.com/MabelSamuel/tasklume" 
 };
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -38,8 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
       link.target = "_blank";
       link.rel = "noopener noreferrer";
       link.innerHTML = 'View GitHub repository <span aria-hidden="true">↗</span>';
-      const note = link.parentElement.querySelector(".link-note");
-      if (note) note.textContent = "Opens the project repository on GitHub.";
     } else {
       link.href = "#contact";
       link.setAttribute("aria-disabled", "true");
